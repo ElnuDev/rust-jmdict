@@ -5,6 +5,8 @@ pkgs.mkShell {
     go
     gopls
     gnumake
+    wget
+    gzip
   ];
   shellHook = ''
     export PATH="$HOME/go/bin:$PATH"
